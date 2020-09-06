@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +35,58 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(84, 103, 110);
+  color: white;
+  
+
+}
+
+.nav-links{
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding-top: 15px;
+}
+.image{
+  width: 300px;
+  height: 150px;
+}
+.itemsShow{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none; 
+  margin-top: 100px;
+  margin-inline: 20px;
+
+}
+.body{
+  margin-top: 20px;
+  margin: auto;
+  width: 30%;
+  padding: 10px;
+}
+.cocktails-table{
+  border: 1px;
+}
+.text{
+ color: black;
+ 
+}
+.container{
+  margin-top: 20px;
+}
+
+.makesearch{
+  margin-top: 20px;
+  
 }
